@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Tabs</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="tabby">
+      <div class="tabs">
+        <button
+          class="tab is-selected"
+          data-theme="digimon"
+          data-topic="digimon"
+        >
+          Digimon
+        </button>
+        <button class="tab" data-theme="pokemon" data-topic="pokemon">
+          Pokemon
+        </button>
+        <button class="tab" data-theme="tamagotchi" data-topic="tamagotchi">
+          Tamagotchi
+        </button>
+      </div>
+
+      <div class="tab-contents">
+        <section
+          class="tab-content is-selected"
+          data-theme="digimon"
+          id="digimon"
+        >
+          <img src="images/digimon.png" alt="digimon" />
+          <h2>Digimon</h2>
+          <p>
+            Digimon, short for "Digital Monsters", is a Japanese media franchise
+            encompassing virtual pet toys, anime, manga, video games, films and
+            a trading card game. The franchise focuses on Digimon creatures,
+            which are monsters living in a "Digital World", a parallel universe
+            that originated from Earth's various communication networks.
+          </p>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Digimon"
+              >More about Digimon &rarr;</a
+            >
+          </p>
+        </section>
+
+        <section class="tab-content" data-theme="pokemon" id="pokemon">
+          <img src="images/pokemon.png" alt="Pokemon" />
+          <h2>Pokémon</h2>
+          <p>
+            Pokémon also known as Pocket Monsters in Japan, is a media franchise
+            managed by The Pokémon Company, a Japanese consortium between
+            Nintendo, Game Freak, and Creatures. The franchise copyright is
+            shared by all three companies, but Nintendo is the sole owner of the
+            trademark.
+          </p>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Pokémon"
+              >More about Pokémon &rarr;</a
+            >
+          </p>
+        </section>
+
+        <section class="tab-content" data-theme="tamagotchi" id="tamagotchi">
+          <img src="images/tamagotchi.png" alt="Tamagotchi" />
+          <h2>Tamagotchi</h2>
+          <p>
+            The Tamagotchi is a handheld digital pet, created in Japan by
+            Akihiro Yokoi of Bandai. It was released by Bandai on November 23,
+            1996 in Japan and May 1, 1997 in the rest of the world, quickly
+            becoming one of the biggest toy fads of the 1990s and early 2000s.
+            As of 2010, over 76 million Tamagotchis had been sold worldwide.
+          </p>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Tamagotchi"
+              >More about Tamagotchi &rarr;</a
+            >
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
